@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TheSiren" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\TheSiren" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Debug\" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\TheSiren" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Release\" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src\bullet\bullet.cpp" />
+		<Unit filename="src\bullet\bullet.h" />
+		<Unit filename="src\bullet\bulletBomber.cpp" />
+		<Unit filename="src\bullet\bulletBomber.h" />
+		<Unit filename="src\bullet\bulletFlak.cpp" />
+		<Unit filename="src\bullet\bulletFlak.h" />
+		<Unit filename="src\enemy\air_enemy.cpp" />
+		<Unit filename="src\enemy\air_enemy.h" />
+		<Unit filename="src\enemy\bomber.cpp" />
+		<Unit filename="src\enemy\bomber.h" />
+		<Unit filename="src\enemy\helicopter.cpp" />
+		<Unit filename="src\enemy\helicopter.h" />
+		<Unit filename="src\engine\engine.cpp" />
+		<Unit filename="src\engine\engine.h" />
+		<Unit filename="src\hamur\hamur.cpp" />
+		<Unit filename="src\hamur\hamur.h" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\parachuter\parachuter.cpp" />
+		<Unit filename="src\parachuter\parachuter.h" />
+		<Unit filename="src\tufek\tufek.cpp" />
+		<Unit filename="src\tufek\tufek.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
